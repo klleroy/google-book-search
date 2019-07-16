@@ -1,0 +1,17 @@
+
+.footerText {
+     margin-left: 42%;
+   
+ }
+ 
+ .footer {
+     height: 40px;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+ }
+ 
+ .footerContainer {
+     padding-top: 10px !important; 
+ }
