@@ -1,9 +1,9 @@
 import React from "react";
 import "./card.css";
 
-class Card extends React.Component({ title, subtitle, authors, description, link, image, Button }) {
+function Card({ title, subtitle, authors, description, link, image, Button }) {
 
-     render() {
+     return (
           <div className="card shadow-sm mb-3">
                <div className="row no-gutters">
                     <div className="col-md-2 text-center">
@@ -21,7 +21,7 @@ class Card extends React.Component({ title, subtitle, authors, description, link
                     </div>
                </div>
           </div>
-     }
+     );
 }
 
 export default Card;
