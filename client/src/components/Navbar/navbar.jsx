@@ -15,7 +15,7 @@ function Navbar() {
                               <Link
                                    to="/" 
                                    className={
-                                        window.location.pathname === "/" || window.location.pathname === "/search" 
+                                        Window.location.pathname === "/" || Window.location.pathname === "/search" 
                                         ? "nav-link active"
                                         : "nav-link"
                                    }
@@ -27,7 +27,7 @@ function Navbar() {
                               <Link
                                    to="/" 
                                    className={
-                                        window.location.pathname === "/" || window.location.pathname === "/saved" 
+                                        Window.location.pathname === "/" || Window.location.pathname === "/saved" 
                                         ? "nav-link active"
                                         : "nav-link"
                                    }
