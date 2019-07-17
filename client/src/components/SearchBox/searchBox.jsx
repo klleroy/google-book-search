@@ -10,3 +10,5 @@ function SearchBox({searchTerm, handleInputChange, handleSubmit}) {
           </form>
      )
 }
+
+export default SearchBox;
