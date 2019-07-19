@@ -1,6 +1,6 @@
 # Google Books Search - MERN Stack
 
-## ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
+## [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/master/LICENSE) [![npm version](https://img.shields.io/npm/v/react.svg?style=flat)](https://www.npmjs.com/package/react)
 
 ## Purpose
 Mongoose, Express, React & Node come together to allow users search and save books from Google Books.
