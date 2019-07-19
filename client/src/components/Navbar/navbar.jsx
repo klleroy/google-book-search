@@ -28,8 +28,8 @@ function Navbar() {
             <Link
               to="/saved"
               className={
-                window.location.pathname === "/saved" 
-                  ? "nav-link active" 
+                window.location.pathname === "/saved"
+                  ? "nav-link active"
                   : "nav-link"
               }
             >

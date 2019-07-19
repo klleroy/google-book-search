@@ -3,12 +3,12 @@ import './title.css';
 
 function Title() {
      return (
-     <div className="jumbotron jumbotron-fluid">
-          <div className="container text">
-               <h1 className="display-4 text-center">Google Books Search</h1>
-               <p className="lead text-center">Search for and Save Books</p>
+          <div className="jumbotron jumbotron-fluid">
+               <div className="container text">
+                    <h1 className="display-4 text-center">Google Books Search</h1>
+                    <p className="lead text-center">Search for and Save Books</p>
+               </div>
           </div>
-     </div>
      )
 }
 

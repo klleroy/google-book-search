@@ -1,7 +1,7 @@
 import React from "react";
 import "./cardSaved.css";
 
-function CardSaved({title, subtitle, authors, link, description, image, Button}) {
+function CardSaved({ title, subtitle, authors, link, description, image, Button }) {
 
   return (
 

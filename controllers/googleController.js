@@ -3,7 +3,7 @@ const db = require("../models");
 
 
 module.exports = {
-  findAll: function(req, res) {
+  findAll: function (req, res) {
     console.log(req)
     const { query: params } = req;
     axios
@@ -20,10 +20,10 @@ module.exports = {
             result.volumeInfo.imageLinks &&
             result.volumeInfo.imageLinks.thumbnail, console.log(results)
         )
-        
-      ) 
+
+      )
       .then(apiBooks =>
-        
+
         db.Book.find().then(dbBooks =>
           apiBooks.filter(apiBook =>
             dbBooks.every(dbBook => dbBook.googleId.toString() !== apiBook.id)

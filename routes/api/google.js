@@ -1,13 +1,9 @@
-const router = require('express').Router();
-const bookController = require('../../controllers/bookController');
+const router = require("express").Router();
+const googleController = require("../../controllers/googleController");
 
-router.route('/')
-     .get(bookController.findAll)
-     .post(bookController.create)
+// Matches with "/api/google"
+router
+     .route("/")
+     .get(googleController.findAll)
 
-router.route('/:id')
-     .get(bookController.findById)
-     .put(bookController.update)
-     .delete(bookController.remove);
-     
-     module.exports = router;
+module.exports = router;

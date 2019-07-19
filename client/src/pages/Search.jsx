@@ -24,7 +24,7 @@ class Search extends Component {
 
     getBooks = () => {
         API.getBooks(this.state.searchTerm)
-            .then(res => 
+            .then(res =>
                 this.setState({
                     books: res.data
                 })
@@ -83,12 +83,12 @@ class Search extends Component {
                                         image={book.volumeInfo.imageLinks.thumbnail}
                                         Button={() => (
                                             <button
-                                              onClick={() => this.handleBookSave(book.id)}
-                                              className="btn btn-sm btn-dark"
+                                                onClick={() => this.handleBookSave(book.id)}
+                                                className="btn btn-sm btn-dark"
                                             >
-                                              Save
+                                                Save
                                             </button>
-                                          )}
+                                        )}
                                     />
                                 ))}
                             </div>
