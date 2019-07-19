@@ -1,31 +1,39 @@
-# google-book-search
+# Google Books Search - MERN Stack
 
-# Create React Express App
+## ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
-## About This Boilerplate
+## Purpose
+Mongoose, Express, React & Node come together to allow users search and save books from Google Books.
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+## Deployment
+Project was deployed on Heroku and can be tested [here](https://whispering-thicket-95226.herokuapp.com/).
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Usage
+Type in the Title of a Book and search. Click on Save to save the book for later use.
 
-## Starting the app locally
+![Screenshot](client/public/booksScreenshot.png)
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+## Technologies and Techniques Used
+This project was created using the following:
 
-```
-npm install
-```
+  - Heroku
+  - MERN Stack (MongoDB Express React Node)
+  - Axios - Promise based HTTP client for the browser and node.js
+  - MVC Design Pattern
 
-This should install node modules within the server and the client folder.
+## Development Notes
+This Application runs on a Heroku Server utilizing Node, Express, MongoDB & React.
 
-After both installations complete, run the following command in your terminal:
+## Contributing
+* Fork it (https://github.com/jobu206/google-book-search/fork)
+* Create your feature branch `git checkout -b feature/google-book-search`
+* Commit your changes `git commit -am "Add your Message Here"`
+* Push to the branch `git push origin feature/google-book-search`
+* Create a new Pull Request
 
-```
-npm start
-```
+## Support
+* Open a new issue [here](https://github.com/jobu206/google-book-search/issues/new) for support.
 
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
+## License
 
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
