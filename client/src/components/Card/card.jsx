@@ -12,7 +12,7 @@ function Card({ title, subtitle, authors, description, link, image, Button }) {
                     <div className="col-md-10">
                          <div className="card-body">
                               <h5 className="card">{title}</h5>
-                              <h6 className="font-italic">{subtitle}</h6>
+                              {subtitle && <h6 className="font-italic">{subtitle}</h6>}
                               <p className="card-text"><strong>Authors: </strong>{authors}</p>
                               <p className="card-text"><strong>Description: </strong>{description}</p>
                               <a href={link} target="_blank" className="btn btn-sm btn-dark">View</a>
